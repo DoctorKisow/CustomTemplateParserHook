@@ -1,0 +1,32 @@
+{
+        "name": "Custom Template Parser Hook",
+        "version": "0.0.1",
+        "author": ["Matthew R. Kisow, D.Sc."],
+        "url": "https://github.com/DoctorKisow/CustomTranslationParserHook.git",
+        "descriptionmsg": "customtemplatetparserhook-desc",
+        "license-name": "GPL-3.0",
+        "type": "semantic",
+        "requires": {
+                "MediaWiki": ">= 1.25.0"
+        },
+        "ExtensionMessagesFiles": {
+                "GTBX_TranslationProperties": "/properties/TranslationProperties.i18n.php"
+        },
+        "MessagesDirs": { "CustomTranslationParserHook": "i18n" },
+        "Hooks": {
+                "smwInitProperties": [
+                         "GTBXTranslationProperties::setupProperties"
+                ],
+                "SMWStore::updateDataBefore": [
+                         "GTBXTranslationProperties::updateDataBefore"
+                ],
+                "ParserFirstCallInit": [
+                         "GTBXLocalizedMsg::SetUpLocalizedMsgParserFunction"
+                ]
+        },
+        "AutoloadClasses": {
+                "GTBXTranslationProperties": "/properties/TranslationProperties.body.php",
+                "GTBXLocalizedMsg": "/localizedmsg/LocalizedMsg.php"
+        },
+        "manifest_version": 1
+}

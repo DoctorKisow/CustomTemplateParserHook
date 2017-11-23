@@ -1,0 +1,4 @@
+{
+        "@metadata": {"authors": ["Matthew R. Kisow, D.Sc."]},
+        "customtemplatetparserhook-desc": "A custom parser hook function for the \"#msg\" hook; this is used to translate the monikers for the (Code, File, etc.) templates.  Used in the custom templates: code, file, important, kernel, note, tip and warning."
+}
