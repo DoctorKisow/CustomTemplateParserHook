@@ -14,6 +14,6 @@ Version 0.0.1 - Production Release
 
 ### Deployment
 1. From your MediaWiki extensions directory clone CustomTemplateParserHook from
-   https://github.com/DoctorKisow/CustomTemplateParserHook.git
+   https://github.com/kisowfoundation/CustomTemplateParserHook.git
 2. In your LocalSettings.php add the following at the end:
    wfLoadExtension( 'CustomTemplateParserHook' );
