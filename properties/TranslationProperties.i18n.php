@@ -2,7 +2,7 @@
 /**
   * Custom Template Parser Hook - Translation properties for custom MediaWiki templates.
   * Matthew R. Kisow, D.Sc. <matthew.kisow@kisow.org>
-  * Copyright 2015-2017, Kisow Foundation, Inc.
+  * Copyright, Kisow Foundation, Inc. 2015-2017.
   **/
 
 $messages['en'] = array(
