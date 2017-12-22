@@ -4,8 +4,6 @@ Matthew R. Kisow, D.Sc. <matthew.kisow@kisow.org>
 Copyright &copy; Kisow Foundation, Inc.&reg; 2015-2017.  
 
 ## Getting Started
-The CustomTemplateParserHook is a MediaWiki semantic hook extension that is based in part on the _Gentoo Toolbox: Translation Properties_ semantic hook extension by Alex Legler.  
-
 A custom semantic hook function for the semantic message hook _#msg_.  This is used for the language translation of the custom MediaWiki template(s), (code, file, important, kernel, note, tip and warning).
 
 ## Installation
